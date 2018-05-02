@@ -2,3 +2,5 @@
 *.log
 *.pyc
 .idea
+/learnspark/target/
+/test_data
