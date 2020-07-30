@@ -11,7 +11,8 @@ object SparkRDD_Memory {
     val sc = new SparkContext(sparkConf)
 
     val sampleData = List(1,2,3,4)
-    val rdd: RDD[Int] = sc.parallelize(sampleData)
+
+    val rdd: RDD[Int] = sc.makeRDD(sampleData, 2) // 带默认并行度
 
     rdd.collect().foreach(println)
 

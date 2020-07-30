@@ -18,8 +18,8 @@
       <scala.compactVersion>2.11</scala.compactVersion>
       <spark.artifact>2.11</spark.artifact>
       <hadoop.version>2.7.7</hadoop.version>
-      <jackson.version>2.6.7</jackson.version>
-      <jackson.databind.version>2.6.7</jackson.databind.version>
+      <jackson.version>2.9.10.4</jackson.version>
+      <jackson.databind.version>2.9.10.4</jackson.databind.version>
       <dependency.scope>compile</dependency.scope>
   </properties>
 
@@ -105,7 +105,7 @@
       <dependency>
           <groupId>io.netty</groupId>
           <artifactId>netty-all</artifactId>
-          <version>4.1.17.Final</version>
+          <version>4.1.42</version>
       </dependency>
 
       <!-- JsonMappingException: Incompatible Jackson version: 2.8.4 -->
